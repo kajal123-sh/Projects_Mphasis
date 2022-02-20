@@ -1,0 +1,16 @@
+package com.simplilearn.operators;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		// Unary operator
+		int a = 4;
+		System.out.println(a++);
+		System.out.println(a--);
+		System.out.println(a);
+		
+	
+
+	}
+
+}

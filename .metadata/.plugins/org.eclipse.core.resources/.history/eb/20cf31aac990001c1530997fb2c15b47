@@ -1,0 +1,12 @@
+package com.AccessModifiers1;
+
+import com.AccessModifier.D;
+
+public class ProtectedModifier extends D{
+           
+	
+	void test() {
+	System.out.println(a);
+	}
+
+}

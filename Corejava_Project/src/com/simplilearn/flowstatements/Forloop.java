@@ -1,0 +1,27 @@
+package com.simplilearn.flowstatements;
+
+public class Forloop {
+
+	public static void main(String[] args) {
+		
+		for( int i=0 ; i<10; i++) {
+		
+		if (i == 5) {
+			continue;
+		}
+		
+		System.out.println("Simplilearn");
+	}
+	
+	/*for(;;) {
+		System.out.println("Simplilearn");
+	}*/
+
+
+		
+		
+	
+
+	}
+
+}
