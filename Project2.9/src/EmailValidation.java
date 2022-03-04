@@ -1,6 +1,4 @@
 import java.util.regex.Pattern;
-
-
 public class EmailValidation {
 	public static void main(String[] args){    //Implementation of method and String
         String s1 = "Kajal23@gmail.com";
