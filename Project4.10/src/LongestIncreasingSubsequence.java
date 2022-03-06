@@ -1,10 +1,10 @@
 
-public class LongestIncreasingSubsequence {
-
+public class LongestIncreasingSubsequence{
 	public static int lis(int arr[], int arrLen){
-	      int seqArr[] = new int[arrLen];
+	
+      int seqArr[] = new int[arrLen];
 	      int i, j, max = 0;
-	      for (i = 0; i < arrLen; i++)
+	    for (i = 0; i < arrLen; i++)
 	         seqArr[i] = 1;
 	      for (i = 1; i < arrLen; i++)
 	      for (j = 0; j < i; j++)
