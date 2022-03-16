@@ -60,11 +60,11 @@
          APR (HTTP/AJP) Connector: /docs/apr.html
          Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
     -->
-    <Connector connectionTimeout="20000" port="8081" protocol="HTTP/1.1" redirectPort="8443"/>
+    <Connector connectionTimeout="20000" port="8083" protocol="HTTP/1.1" redirectPort="8443"/>
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
-               port="8080" protocol="HTTP/1.1"
+               port="8083" protocol="HTTP/1.1"
                connectionTimeout="20000"
                redirectPort="8443" />
     -->
@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="2ndPhase1.1DifferenceBetweenServletGetPost" path="/2ndPhase1.1DifferenceBetweenServletGetPost" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.1DifferenceBetweenServletGetPost"/></Host>
+      <Context docBase="2ndPhase1.1DifferenceBetweenServletGetPost" path="/2ndPhase1.1DifferenceBetweenServletGetPost" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.1DifferenceBetweenServletGetPost"/><Context docBase="2ndPhase1.2ConfiguringAServletWithEclipse" path="/2ndPhase1.2ConfiguringAServletWithEclipse" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.2ConfiguringAServletWithEclipse"/><Context docBase="2ndPhase1.3GenericServlets" path="/2ndPhase1.3GenericServlets" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.3GenericServlets"/><Context docBase="2ndPhase1.4ServletClassesAndInterfaces" path="/2ndPhase1.4ServletClassesAndInterfaces" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.4ServletClassesAndInterfaces"/><Context docBase="2ndPhase1.5ServletFilters" path="/2ndPhase1.5ServletFilters" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.5ServletFilters"/><Context docBase="2ndPhase1.6SessionTrackingUsingCookies" path="/2ndPhase1.6SessionTrackingUsingCookies" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.6SessionTrackingUsingCookies"/><Context docBase="2ndPhase1.7SessionTrackingUsingURLRewrites" path="/2ndPhase1.7SessionTrackingUsingURLRewrites" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.7SessionTrackingUsingURLRewrites"/><Context docBase="2ndPhase1.8SessionTrackingUsingHiddenFormFields" path="/2ndPhase1.8SessionTrackingUsingHiddenFormFields" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.8SessionTrackingUsingHiddenFormFields"/><Context docBase="2ndPhase1.9SessionTrackingUsingHTTPSession" path="/2ndPhase1.9SessionTrackingUsingHTTPSession" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.9SessionTrackingUsingHTTPSession"/><Context docBase="2ndPhase1.10SessionLoginAndLogout" path="/2ndPhase1.10SessionLoginAndLogout" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.10SessionLoginAndLogout"/><Context docBase="2ndPhase1.11PracticeProjectValidationOfTheUserLogin" path="/2ndPhase1.11PracticeProjectValidationOfTheUserLogin" reloadable="true" source="org.eclipse.jst.jee.server:2ndPhase1.11PracticeProjectValidationOfTheUserLogin"/></Host>
     </Engine>
   </Service>
 </Server>
