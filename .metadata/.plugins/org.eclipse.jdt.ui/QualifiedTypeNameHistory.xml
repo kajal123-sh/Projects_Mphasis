@@ -19,4 +19,10 @@
 <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.simplilearn.util.HibernateUtility"/>
+<fullyQualifiedTypeName name="com.simplilearn.entity.Product"/>
+<fullyQualifiedTypeName name="javax.transaction.Transaction"/>
+<fullyQualifiedTypeName name="com.mysql.cj.Session"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
 </qualifiedTypeNameHistroy>
