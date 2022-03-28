@@ -8,7 +8,7 @@
 </head>
 <body>
 <br>
-<a href=homepage.jsp style="color:black;text-decoration:none ;font-size:35px;font-weight:bold;">FlyAway</a>
+<a href=homepage.jsp style="color:black;text-decoration:none ;font-size:35px;font-weight:bold;">Flight Booking</a>
 <br><br>
 <center>
 <div style="border:3px solid black;width:25%;border-radius:20px;padding:20px" align="center">
