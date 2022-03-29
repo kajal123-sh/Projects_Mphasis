@@ -8252,3 +8252,8 @@ org.eclipse.core.runtime.CoreException: Launch configuration DependancyInjection
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-03-29 11:02:10.269
 !MESSAGE Launch configuration DependancyInjection references closed project 3rdPhase_3.6_Dependancy_Injection
+
+!ENTRY org.eclipse.core.resources 2 2 2022-03-29 11:26:45.424
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2022-03-29 11:26:45.424
+!MESSAGE The project description file (.project) for 'Phase3-3.7-User_Anthentication' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
